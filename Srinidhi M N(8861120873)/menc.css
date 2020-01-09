@@ -1,0 +1,367 @@
+body {
+    margin: 0px;
+    background-color: darkgrey;
+}
+
+#reg{
+    position:absolute;
+    left:10px;
+    top:590px;
+    bottom:0px;
+    right:850px;
+    
+}
+#h{
+    position: absolute;
+    left:1250px;
+    right:0px;
+    top:610px;
+    bottom:0px;
+    text-decoration: none;
+}
+#s {
+    height: 70px;
+    background-color: rgb(255, 249, 249);
+}
+
+#s1 {
+    position: absolute;
+    left: 300px;
+    right: 0px;
+    top: 40px;
+    bottom: 950px;
+}
+
+select {
+    background: transparent;
+    border-width: 0px;
+}
+
+option {
+    background-color: rgba(46, 45, 45, 0.2);
+
+}
+
+#a {
+    color: rgb(0, 0, 0);
+    font-family: Snell Roundhand, cursive;
+    font-size: 25px;
+    text-shadow: 4px 4px 2px rgb(59, 59, 59);
+}
+
+#a1 {
+    font-style: italic;
+    font-size: 50px;
+    color: yellow;
+    font-family: Trattatello, fantasy;
+}
+
+a.l {
+    position: absolute;
+    left: 910px;
+    right: 0px;
+    top: 6px;
+    bottom: 950px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(75, 23, 134);
+    font-family: Stencil Std, fantasy;
+}
+
+a.s {
+    position: absolute;
+    left: 970px;
+    right: 0px;
+    top: 6px;
+    bottom: 950px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(75, 23, 134);
+    font-family: Stencil Std, fantasy;
+}
+
+#m {
+    background-image: url(menbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 25px;
+    height: 500px;
+
+}
+
+#m1 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color:rgba(255, 255, 255,0.8);
+    border-color: white;
+    float: left;
+
+}
+#m1:hover{
+    height: 300px;
+    width:200px;
+}
+
+#p1 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+}
+
+img.i {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#m2 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 0px 0px 0px 30px;
+    float: left;
+
+}
+
+#p2 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+}
+
+#m3 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color:rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 0px 0px 0px 30px;
+    float: left;
+
+}
+
+#p3 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+}
+#m4 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 0px 0px 0px 30px;
+    float: left;
+
+}
+
+#p4 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+}
+#m5 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 0px 0px 0px 30px;
+    float: left;
+
+}
+
+#p5 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m6 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 0px 0px 0px 30px;
+    float: left;
+
+}
+
+#p6 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m7 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 0px 0px 0px 30px;
+    float: left;
+
+}
+
+#p7 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m8 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 12px 0px 0px 0px;
+    float:left;
+
+}
+
+#p8 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m9 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 12px 0px 0px 30px;
+    float: left;
+
+}
+
+#p9 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m10 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 12px 0px 0px 30px;
+    float: left;
+
+}
+
+#p10 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m11 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 12px 0px 0px 30px;
+    float: left;
+
+}
+
+#p11 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m12 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 12px 0px 0px 30px;
+    float: left;
+
+}
+
+#p12 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m13 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 12px 0px 0px 30px;
+    float: left;
+
+}
+
+#p13 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+#m14 {
+    padding-top: 3px;
+    padding-left: 5px;
+    height: 240px;
+    width: 150px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-color: white;
+    margin: 12px 0px 0px 30px;
+    float: left;
+
+}
+
+#p14 {
+    padding-left: 10px;
+    color: rgb(73, 73, 73);
+    position: relative;
+    margin: 3px;
+
+}
+button{
+    background: transparent;
+}

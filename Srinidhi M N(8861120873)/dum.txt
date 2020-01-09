@@ -1,0 +1,25 @@
+<label id="l">Log<span>IN</span></label><br><br>
+
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div>
+        <span>
+            <h1>LogIn</h1>
+        </span>
+    </div>
+    <form action="#" class="f">
+        <fieldset>
+        
+        <label>Username: </label> <input type="email" placeholder="Enter your mail-id"><br><br><br>
+        <label>Password: </label> <input type="password" placeholder="Enter password"><br><br>
+        <p>Dont have an account!? <a href="signup.html">SignUp!</a></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>LogIn</button><br>
+        
+        </fieldset>
+    </form>
+</body>
