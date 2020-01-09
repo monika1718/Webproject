@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    background-color: rgb(148, 122, 122);
+}
+
+#s {
+    height: 90px;
+    background-color: rgb(255, 249, 249);
+}
+
+#s1 {
+    padding-left: 250px;
+    font-size: 20px;
+}
+
+select {
+    background: transparent;
+    border-width: 0px;
+}
+
+option {
+    background-color: rgba(46, 45, 45, 0.2);
+
+}
+
+#a {
+    color: rgb(0, 0, 0);
+    font-family: Snell Roundhand, cursive;
+    font-size: 50px;
+    text-shadow: 4px 4px 2px rgb(172, 175, 11);
+}
+
+#a1 {
+    font-style: italic;
+    font-size: 50px;
+    color: yellow;
+    font-family: Trattatello, fantasy;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+}
+
+a.l {
+    position: absolute;
+    left: 1200px;
+    right: 0px;
+    top: 60px;
+    bottom: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(75, 23, 134);
+    font-family: Stencil Std, fantasy;
+}
+
+a.s {
+    position: absolute;
+    left: 1280px;
+    right: 0px;
+    top: 60px;
+    bottom: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(75, 23, 134);
+    font-family: Stencil Std, fantasy;
+}
+
+select,option{
+    border-width:0px;
+    background: transparent;
+}
+
+#m {
+    background-image: url(bgh1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 395px;
+    padding-left:150px;
+    padding-top:150px;
+}
+#m1
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    float:left;
+    
+}
+#f1
+{
+    text-decoration: none;
+    color:yellow;
+    font-size:30px;
+    font-family: Snell Roundhand, cursive;
+    position: absolute;
+    left:100px;
+    right:750px;
+    top:150px;
+    bottom:800px;
+    
+}
+#f2
+{
+    text-decoration: none;
+    color:yellow;
+    font-size:30px;
+    font-family: Snell Roundhand, cursive;
+    position: absolute;
+    left:900px;
+    right:100px;
+    top:150px;
+    bottom:800px;
+}
+#f3
+{
+    text-decoration: none;
+    color:rgb(255, 217, 0);
+    font-size:30px;
+    font-family: Snell Roundhand, cursive;
+    position: absolute;
+    left:600px;
+    right:200px;
+    top:300px;
+    bottom:600px;
+}
+#f4
+{
+    text-decoration: none;
+    color:rgb(255, 217, 0);
+    font-size:30px;
+    font-family: Snell Roundhand, cursive;
+    position: absolute;
+    left:100px;
+    right:750px;
+    top:450px;
+    bottom:200px;
+}
+#f5
+{
+    text-decoration: none;
+    color:rgb(255, 217, 0);
+    font-size:30px;
+    font-family: Snell Roundhand, cursive;
+    position: absolute;
+    left:900px;
+    right:200px;
+    top:450px;
+    bottom:200px;
+    
+}

@@ -1,0 +1,79 @@
+body{
+    background-image: url(sg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-color: grey;
+}
+#a {
+    color: rgb(0, 0, 0);
+    font-family: Snell Roundhand, cursive;
+    font-size: 25px;
+    text-shadow: 4px 4px 1px rgb(17, 17, 17);
+}
+
+#a1 {
+    font-style: italic;
+    font-size: 50px;
+    color: yellow;
+    font-family: Trattatello, fantasy;
+}
+
+.m{
+    padding-left:25px;
+}
+table{
+    padding-top: 80px;
+    font-size: 15px;
+    font-family: Apple Chancery, cursive;
+    color:rgb(255, 255, 255);
+}
+input{
+    border-radius: 50px;
+    background-color: rgba(1,1,1,0.5);
+    color:white;
+    padding:5px;
+}
+textarea{
+    background-color: rgba(1, 1,1, 0.5);
+    border-radius: 20px;
+    padding-left: 15px;
+}
+h1{
+    padding-left:460px;
+    padding-top: 25px;
+}
+div.t{
+    
+    border-color:blue;
+    background-color: rgb(46, 46, 46);
+    position: absolute;
+    left: 500px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+div.w{
+    padding-top: 100px;
+    position:absolute;
+    left: 120px;
+    right: 0px;
+    top: 0px;
+    bottom: 00px;
+    color:white;
+
+} 
+#w1{
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    top: 110px;
+    bottom: 00px;
+    font-size: 60px;
+    color:White;
+}
+span{
+    color:red;
+}
+a{
+    color:rgb(85, 85, 228);
+}

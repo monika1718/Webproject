@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BuYMAadi.com</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgb(148, 122, 122);
+        }
+
+        #s {
+            height: 70px;
+            background-color: rgb(255, 249, 249);
+        }
+
+        #s1 {
+            position: absolute;
+            left: 300px;
+            right: 0px;
+            top: 40px;
+            bottom: 0px;    
+        }
+
+        select {
+            background: transparent;
+            border-width: 0px;
+        }
+
+        option {
+            background-color: rgba(46, 45, 45, 0.2);
+
+        }
+
+        #a {
+            color: rgb(0, 0, 0);
+            font-family: Snell Roundhand, cursive;
+            font-size: 50px;
+            text-shadow: 4px 4px 2px rgb(235, 235, 235);
+        }
+
+        #a1 {
+            font-style: italic;
+            font-size: 50px;
+            color: yellow;
+            font-family: Trattatello, fantasy;
+        }
+
+        a.l {
+            position: absolute;
+            left: 930px;
+            right: 0px;
+            top: 6px;
+            bottom: 0px;
+            text-decoration: none;
+            font-size: 20px;
+            color:rgb(75, 23, 134);
+            font-family: Stencil Std, fantasy;
+        }
+
+        a.s {
+            position: absolute;
+            left: 1000px;
+            right: 0px;
+            top: 6px;
+            bottom: 0px;
+            text-decoration: none;
+            font-size: 20px;
+            color:rgb(75, 23, 134);
+            font-family: Stencil Std, fantasy;
+        }
+
+        #m {
+            background-image: url(bgh1.jpg);
+            background-repeat: repeat-x;
+            background-size: 680px 350px;
+            padding-left:50px;
+            padding-top:25px;
+            height: 250px;
+            
+        }
+        #m1
+        {
+            padding-top:3px;
+            padding-left: 5px;
+            height:240px;
+            width:150px;
+            background-color: white;
+            border-color: white;
+            float: left;
+            
+        }
+        #p1{
+            padding-left:10px;
+            color:rgb(73, 73, 73);
+            position: relative;
+            margin: 3px;
+        }
+        img.i{
+            padding-left:10px;
+            padding-top: 5px;
+        }
+        #m2
+        {
+            padding-top:3px;
+            padding-left: 5px;
+            height:240px;
+            width:150px;
+            background-color: white;
+            border-color: white;
+            margin:0px 0px 0px 30px;
+            float: left;
+            
+        }
+        #p2{
+            padding-left:10px;
+            color:rgb(73, 73, 73);
+            position: relative;
+            margin: 3px;
+        }
+        img.i{
+            padding-left:10px;
+            padding-top: 5px;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div  id="s">
+        <a href="front.html" style="margin: 0px; font-size: 25px; text-decoration: none;" id="a">
+            <span id="a1">B&nbsp;m&nbsp;</span></a><br>
+        <div id="s1">
+            <select name="colthing" onchange="location = this.value">
+                <option value="">Clothing</option>
+                <option value="menc.html">Men</option>
+                <option value="womenc.html">Women</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="Mobiles" onchange="location = this.value">
+                <option value="">Mobiles & Accesories</option>
+                <option value="mob.html">Mobiles</option>
+                <option value="acces.html">Accesories</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="Electronics" onchange="location = this.value">
+                <option value="">Electronics</option>
+                <option value="tv.html">Television</option>
+                <option value="comp.html">Computers</option>
+                <option value="homeappl.html">Appliances</option>
+            </select>
+            <a href="login.html" class="l">Login</a>
+            <a href="signup.html" class="s">SignUp</a>
+        </div>
+    </div>
+    <div id="m">
+        <div id="m1">
+            <img class="i"src="men1.jpg" alt="Oops we regret for inconvience" width="120px" height="120px">
+            <p id="p1">Men's Casual</p>
+            &nbsp;&nbsp;<select name="size" style="color:rgb(73, 73, 73); "><option value="">Size</option>
+            <option value="">S</option>
+            <option value="">M</option>
+            <option value="">L</option>
+            <option value="">XL</option>
+        </select>
+            <p id="p1"><span style="text-decoration: line-through;">Rs:550</span> &nbsp;&nbsp;Rs:350</p>
+            &nbsp;&nbsp;&nbsp;<button>Buy</button>&nbsp;&nbsp;<button>Add to Cart</button>
+            
+        </div>
+        <div id="m2">
+                <img class="i"src="sneaker.jpg" alt="Oops we regret for inconvience" width="120px" height="120px">
+                <p id="p2">Sneaker</p>
+                &nbsp;&nbsp;<select name="size" style="color:rgb(73, 73, 73); "><option value="">Size</option>
+                <option value="">UK 6</option>
+                <option value="">UK 7</option>
+                <option value="">UK 8</option>
+                <option value="">UK 9</option>
+            </select>
+                <p id="p2"><span style="text-decoration: line-through;">Rs:550</span> &nbsp;&nbsp;Rs:350</p>
+                &nbsp;&nbsp;&nbsp;<button>Buy</button>&nbsp;&nbsp;<button>Add to Cart</button>
+                
+            </div>
+    </div>
+</body>
+
+</html>
